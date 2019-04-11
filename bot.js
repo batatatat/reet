@@ -8,12 +8,12 @@ function clean(text) {
         return text;
 }
 
-const prefix = "=";
+const prefix = "7";
 const token = "Token Your Bot";
 
 client.on("ready", () => {
   console.log("Vulnix | Logged in! Server count: ${client.guilds.size}");
-  client.user.setGame(`Jail-تكت |${=}new`);
+  client.user.setGame(`Jail-تكت |${7}new`);
 });
 
 
